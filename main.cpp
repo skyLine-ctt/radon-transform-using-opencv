@@ -41,7 +41,7 @@ static bool argParser( int argc, const char **argv,
     }
 
     const char *filename = argc >= 2 ? argv[1]
-                                     : "./065.bmp";
+                                     : "./test.bmp";
     img = imread(filename, 0);
     if( img.empty() ) {
         std::cout << "Unable to load image: " << filename << std::endl;
